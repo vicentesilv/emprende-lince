@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="fracciones.css">
+    <title>math games fracciones</title>
+    <link rel="stylesheet" href="../menu/menu.css">
+
+</head>
+
+<body>
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">math games</h1>
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="../index.html" class="menu__link">inicio</a>
+                </li>
+
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">juegos <img src="../assets/arrow.svg" class="menu__arrow"></a>
+
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="operaciones.html" class="menu__link menu__link--inside">operaciones</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">fracciones</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="gatito.html" class="menu__link menu__link--inside">gatito</a>
+                        </li>
+                         <li class="menu__inside">
+                            <a href="ahorcado.html" class="menu__link menu__link--inside">ahorcado</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item  menu__item--show">
+                    <a href="#" class="menu__link">donaciones</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contacto</a>
+                </li>
+
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+    </nav>
+    <br><br>
+
+    <div class="container">
+        <div class="izquierdo">
+			<div class="container-operacion">
+			 	<span id="suma">9 + 9 =</span>
+			 	<span class="resultado" id="resultado"> 18</span>
+			 </div>
+			 <span class="msj" id="msj">
+
+			 </span>
+		</div>
+		<div class="derecha">
+			<span id="op1" class="opcion" onclick="controlarRespuesta(this)">18</span>
+			<span id="op2" class="opcion" onclick="controlarRespuesta(this)">17</span>
+			<span id="op3" class="opcion" onclick="controlarRespuesta(this)">8</span>
+		</div>
+
+     <script src="fracciones.js"></script>
+     <script src="../menu/menu.js"></script>
+    </div>
+</body>
+</html>

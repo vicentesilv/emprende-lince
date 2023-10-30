@@ -1,0 +1,37 @@
+.container {
+    max-width: 800px;
+    height: 500px;
+    background: linear-gradient(#34c0d6, #d5f3f7);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+#tablero{
+    margin: auto;
+    width: 300px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#tablero>button{
+    width: 100px;
+    height: 100px;
+    max-width: 33.33%;
+    font-size: 5em;
+}
+#textoVictoria{
+    visibility: hidden;
+    color: black;
+}
+.reseteo {
+    text-decoration: none;
+    background: #34c0d6;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 50px;
+}
+.reseteo>a:active{
+    color: black ;
+}
